@@ -1,0 +1,71 @@
+body {
+    background-color: blue;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.player-names {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    background-color: ; /* Background color for the board */
+    padding: 5px;
+    border-radius: 5px;
+  justify-content: center;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: darkgray; /* Cell background color */
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black; /* Button background color */
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    padding: 5px;
+    text-align: left;
+}
+
+footer p {
+    margin: 0;
+}
